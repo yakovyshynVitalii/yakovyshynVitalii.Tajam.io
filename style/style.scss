@@ -8,7 +8,9 @@
 }
 
 .home{
-    background: url(../img/Bg.png) no-repeat;
+    width: 100%;
+    background: url(../img/Bg.png) center/cover;
+    background-repeat: no-repeat;
     
     #menu__toggle {
         opacity: 0;
@@ -234,7 +236,9 @@
 }
 
 .story_video{
-    background: url(../img/bg_story.png);
+    width: 100%;
+    background: url(../img/bg_story.png) center/cover;
+    background-repeat: no-repeat;
 
     .story_video_container{
         margin: 0 auto;
@@ -261,6 +265,8 @@
 
 
 .expertise{
+    max-width: 1170px;
+    margin: 0 auto;
     padding-top: 70px;
     padding-bottom: 70px;
     text-align: center;
@@ -324,6 +330,7 @@
 
 
 .team{
+    width: 100%;
     padding-top: 70px;
     padding-bottom:70px ;
     background: url(../img/Bg.png) center/cover;
@@ -520,6 +527,7 @@
 }
 
 .people-say{
+    width: 100%;
     background: url(../img/people_bg.png) center/cover;
     background-repeat: no-repeat;
     padding: 70px 0px;
@@ -687,6 +695,7 @@
 }
 
 footer{
+    width: 100%;
     background: url(../img/footer_bg.png) center/cover;
     background-repeat: no-repeat;
     padding-top: 80px;
